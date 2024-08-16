@@ -1,0 +1,16 @@
+[Unit]
+Description=Minecraft buchteln world
+
+[Container]
+Image=localhost/buchteln
+Timezone=local
+AutoUpdate=local
+PublishPort=12000:25565
+Volume=buchteln:/home/buchteln/buchteln
+
+[Service]
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=default.target
