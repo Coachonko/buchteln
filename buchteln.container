@@ -5,7 +5,7 @@ Description=Minecraft buchteln world
 Image=localhost/buchteln
 Timezone=local
 AutoUpdate=local
-PublishPort=12000:25565
+PublishPort=25565:25565
 Volume=buchteln:/home/buchteln/buchteln
 
 [Service]
